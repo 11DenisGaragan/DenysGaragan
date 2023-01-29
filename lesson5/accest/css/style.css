@@ -1,0 +1,64 @@
+.action {
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    width: 500px;
+    height: 500px;
+    background: gray;
+    padding: 0 50px;
+    padding-top: 5px;
+} 
+ label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 5px;
+}
+ label input {
+    padding: 8px;
+    width: 100%;
+    max-width: 50%;
+}
+ label .choice {
+    display: flex;
+    margin-left: 141px;
+}
+ label .comit {
+    width: 100%;
+    max-width: 54%;
+}
+ label.comments {
+    width: 100%;
+    max-width: 82%;
+}
+.fit input {
+    width: 100%;
+    max-width: 30%;
+}
+label .fit {
+    width: 100%;
+}
+p {
+    margin-left: 26px;
+}
+.chek {
+    width: 4%;
+    margin-top: -31px;
+}
+.but-1 {
+    display: flex;
+    width: 140px;
+    margin-left: 50px;
+    margin-top: 18px;
+}
+.but-2 {
+    width: 160px;
+    margin-left: 204px;
+    margin-top: -21px;
+}
+
+    
+    
+
+
