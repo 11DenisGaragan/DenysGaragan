@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Gotham-Bold",sans-serif;
+    src: url(../assets/fonts/Gotham-Bold.ttf) format(ttf);
+}
 body {
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
@@ -6,15 +10,13 @@ body {
 * {
     box-sizing: border-box;
 }
-main {
-    font-family: 'Montserrat', sans-serif;
-    width: 100%;
-    max-width: 1130px;
-    margin: 0 auto;
-}
 h1 {
     font-weight: 700;
     font-size: 44px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
 }
 a {
     text-decoration: none;
@@ -69,7 +71,7 @@ a {
     padding: 13px 20px;
     border-radius: 4px;
     border: 1px solid  #BCD0E5;
-  
+
 }
 .button_up {
     margin-left: 60px;
@@ -79,12 +81,12 @@ a {
     color: #FFFFFF;  
     border: none;
 }
-
 .container {
     width: 100%;
     max-width: 1130px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 .row {
     margin-top: 197px;
@@ -108,5 +110,98 @@ a {
     width: 644px;
     height: 495px;
     margin-top: 99px;
+}
 
+/* section */
+
+.section {
+    background:url(../assets/images/bg.png);
+    margin-top: 50px;
+ }
+.section-header {
+    margin: 0 auto;
+    text-align: center;
+    width: 539px;
+    height: 88px;
+}
+.section-header h2 {
+    margin-top: 127px;
+    padding-bottom: 50px;
+}
+.card-wrapper {
+    width: 100%;
+    max-width: 270px;
+}
+.card-wrapper a {
+    display: inline-block;
+    margin-top: 30px;
+    color: #2F281E;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card-wrapper p {
+    margin-top: 30px;
+    color:  #544837;
+    font-weight: 500;
+    font-size: 16px;
+}
+.button-sing {
+    margin-top: 70px;
+    padding-bottom: 116px;
+}
+.button-sing_now {
+    display: flex;
+    margin: 0 auto;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 13px 43px;
+    background: #FF9900;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+.footer-logo a {
+    color:  #173A56;
+    font-weight: 700;
+    margin-left: 11px;
+}
+.footer-form input {
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px 10px;
+    color: #BCD0E5;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+.footer-nav ul {
+    margin-top: 30px;
+}
+.footer-nav li {
+    margin-top: 15px;
+}
+.footer_item {
+    font-size: 20px;
+    color: #2F281E;
+    font-family: "Gotham-Bold",sans-serif;
+    font-weight: 700;
+}
+.footer-nav_item {
+    color:  #544837;
+    font-weight: 500;
+}
+.footer-form_button {
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 13px 43px;
+    background: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 25px;
 }
