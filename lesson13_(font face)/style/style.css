@@ -1,0 +1,76 @@
+@import url(../assets/fonts/Tourney/tourney.css);
+@import url(../assets/fonts/Staatliches/staatliches.css);
+@import url(../assets/fonts/Francois-One/francois-one.css);
+@import url(../assets/fonts/Farro/farro.css);
+@import url(../assets/fonts/PT-Sans/pt-sans.css);
+@import url(../assets/fonts/Hind/hind.css);
+h4 {
+    font-family: 'FrancoisOne-Regular.',sans-serif;
+    font-size: 36px;
+    margin-top: 70px;
+}
+em {
+    font-family: 'PT Sans-Italic.' ;
+    font-size: 28px;
+}
+span {
+    margin-top: 30px;
+}
+strong {
+    font-family: 'PT Sans-Bold.',sans-serif;
+    font-size: 28px;
+}
+.chapter {
+    vertical-align: 14px;
+    font-family: 'Farro-Light.',sans-serif ;
+    font-size: 25px;
+    color: gray;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    justify-content: space-between;
+}
+.container span {
+    font-family: 'Tourney_Condensed-SemiBold.',sans-serif;
+    font-size: 22px;
+}
+.container nav {
+    margin-top: 30px;
+}
+.container p {
+    font-family: 'Staatliches-Regular.',sans-serif;
+    font-size: 22px;
+}
+.container a {
+    margin-top: 13px;
+}
+.article {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+.chapter-text {
+    font-family: 'PT Sans-Regular.','Hind-Regular',sans-serif;
+    font-size: 28px;
+    margin-top: 40px;
+    line-height: 48px;
+}
+.chapter-text_italic {
+    font-family: 'PT Sans-Regular',sans-serif;
+    font-size: 28px;
+    margin-top: 40px;
+    line-height: 48px;
+}
+.chapter-text_bold {
+    font-family: 'PT Sans-Regular.',sans-serif;
+    font-size: 28px;
+    margin-top: 40px;
+    line-height: 48px;
+}
+.chapter-text_bag {
+    background-color: rgb(174, 172, 172);
+}
+
