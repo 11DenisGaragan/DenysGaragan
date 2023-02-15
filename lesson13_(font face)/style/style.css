@@ -43,9 +43,13 @@ strong {
 .container p {
     font-family: 'Staatliches-Regular.',sans-serif;
     font-size: 22px;
+    margin-left: 20px;
 }
 .container a {
     margin-top: 13px;
+}
+.header-container {
+    display: flex;
 }
 .article {
     margin: 0 auto;
