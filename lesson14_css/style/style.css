@@ -1,0 +1,132 @@
+@import url(../assets/fonts/Farro/farro.css);
+@import url(../assets/fonts/Francois-One/francois-one.css);
+@import url(../assets/fonts/PT-Sans/pt-sans.css);
+@import url(../assets/fonts/Staatliches/staatliches.css);
+@import url(../assets/fonts/Tourney/tourney.css);
+em {
+    font-family: 'PT Sans-Italic.' ;
+    font-size: 28px;
+}
+strong {
+    font-family: 'PT Sans-Bold.',sans-serif;
+    font-size: 28px;
+}
+h4 {
+    font-family: 'FrancoisOne-Regular.',sans-serif;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+/* header */
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header-item {
+    margin-top: 26px;
+    font-size: 22px;
+    font-family: 'Tourney_Condensed-SemiBold.',sans-serif;
+}
+.divider {
+    width: 100px;
+    height: 8px;
+    background: #000000;
+}
+.divider-team {
+    width: 100px;
+    height: 8px;
+    background: #000000;
+    margin-top: 70px;
+}
+.nav {
+    margin-top: 26px;
+    font-size: 22px;
+    font-family: "Staatliches-Regular.",sans-serif;
+}
+.nav a {
+    text-decoration: none;
+    color: #000000;
+}
+.nav-item{
+    margin-left: 50px;
+}
+.header-container {
+    display: flex;
+}
+.logo {
+    position: relative;
+    margin-top: 16px;
+}
+.logo-item {
+    position: absolute;
+    right: 27px;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-right: 22px solid  #1A1A1A;;
+    border-bottom: 25px solid transparent;
+}
+
+/* navbar */
+
+.navbar {
+    
+    margin-top: 106px;
+}
+.navbar ul {
+    position: sticky;
+    top: 160px;
+    width: 385px;
+}
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'FrancoisOne-Regular.',sans-serif;
+    font-size: 36px;
+}
+.navbar-item {
+    margin-top: 80px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* article */
+
+.article {
+    position: relative;
+    margin-top: 106px;
+}
+.chapter {
+    vertical-align: 14px;
+    font-family: 'Farro-Light.',sans-serif ;
+    font-size: 25px;
+    color: #000000;
+}
+.chapter-text {
+    font-family: 'PT Sans-Regular.','Hind-Regular',sans-serif;
+    font-size: 28px;
+    margin-top: 40px;
+    line-height: 48px;
+}
+.chapter-text_bag {
+    background-color: rgb(174, 172, 172);
+}
+img { 
+    position: absolute;
+    top: 150px;
+    right: 0;
+    z-index: -1;
+}
+
+
