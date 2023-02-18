@@ -122,11 +122,13 @@ h4 {
 .chapter-text_bag {
     background-color: rgb(174, 172, 172);
 }
-img { 
+
+.bag {
     position: absolute;
-    top: 150px;
-    right: 0;
     z-index: -1;
 }
-
-
+img { 
+    position: fixed;
+    top: 150px;
+    right: 0;
+ }
