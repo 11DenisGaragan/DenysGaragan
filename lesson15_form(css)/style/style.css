@@ -1,0 +1,209 @@
+@import url(../assets/fonts/Inter/inter.css);
+@import url(../assets/fonts/Roboto/roboto.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#country {
+    font-family: "Inter-Regular",sans-serif ;
+    font-size: 15px;
+}
+
+h2 {
+    font-family: "Roboto-Medium",sans-serif;
+    font-size: 24px;
+    color: #1C1C1C;
+}
+
+body {
+    background-color: #7A5CFA;
+    font-size: 13px;
+   
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 570px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    
+}
+
+
+/* form */
+
+form {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.form {
+    display: flex;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.form__item {
+    width: 100%;
+}
+
+.form__email{
+    margin-top: 20px;
+}
+
+.form__item-hint {
+    font-family: "Roboto-Regular",sans-serif;
+    color: #969696;  
+    
+}
+
+.label {
+    font-family: "Roboto-Regular",sans-serif;
+    font-size: 15px;
+    color: #545454;
+    
+}
+
+.input {
+    width: 100%;
+    height: 38px;
+    border-radius: 6px;
+    padding: 0 16px;
+    margin-top: 7px;
+    border: 1px solid rgba(204, 204, 204, 204);
+}
+
+/* radio__button */
+
+.radio__button {
+    display: flex;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: "Roboto-Regular",sans-serif;
+    gap: 21px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    border: 1px solid #E4E4E4;
+    border-radius: 50%;
+}
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+   top: 6px;
+   left: 6px;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background: #FFFFFF;
+}
+
+/* button */
+
+.button {
+    padding-top: 20px;
+}
+
+.button__item {
+    padding: 8px 10px;
+   width: 100%;
+   color: #FFFFFF;
+   background-color: #007BFF;
+   border: 1px solid #E4E4E4;
+   border-radius: 6px;
+  
+}
+
+.button__title {
+    padding: 20px 0;
+    text-align: center;
+    line-height: 18px;
+    
+}
+
+.button__title p {
+font-family: "Roboto-Regular",sans-serif ;
+color:  #969696;
+}
+
+.button__title a {
+    font-family:  "Inter-Regular",sans-serif;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.button__title-line {
+    width: 100%;
+    height: 1px;
+    background-color: #E4E4E4;
+}
+
+/* footer */
+
+.footer {
+    padding: 20px 0 16px 0;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: "Roboto-Regular",sans-serif;
+    font-size: 15px;
+    color: #545454;
+    padding-right: 20px;
+}
+
+.footer__button {
+    border: none;
+    background-color: #FFFFFF ;
+    color: #007BFF ;
+    font-size: 15px;
+    font-family: "Roboto-Medium",sans-serif;
+}
+
+
+
+
+
+  
+
+
+
+
+
