@@ -80,6 +80,9 @@ form {
     margin-top: 7px;
     border: 1px solid rgba(204, 204, 204, 204);
 }
+.input:focus {
+   border: 1px solid #007BFF;
+}
 
 /* radio__button */
 
