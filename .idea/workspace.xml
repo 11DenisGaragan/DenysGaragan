@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="143c771d-c564-401e-9c21-411b229e2783" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon/design(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon/first-click(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon/five-second(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon/preference(3).png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/image.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -39,6 +43,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon" />
+      <recent name="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images" />
+      <recent name="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677517219583</updated>
       <workItem from="1677517221440" duration="2000" />
-      <workItem from="1677666979413" duration="307000" />
+      <workItem from="1677666979413" duration="931000" />
     </task>
     <servers />
   </component>
