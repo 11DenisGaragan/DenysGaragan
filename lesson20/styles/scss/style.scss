@@ -1,0 +1,135 @@
+// @import url(assets/fonts/Lato/lato.css);
+// @import url(assets/fonts/Red_Hat_Display/redhatdisplay.css);
+@font-face {
+    font-family:"RedHatDisplay SemiBold";
+    src: url(../../assets/fonts/Red_Hat_Display/RedHatDisplay-SemiBold.ttf);
+}
+@font-face {
+    font-family:"Lato Regular";
+    src: url(../../assets/fonts/Lato/Lato\ Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Lato Regular",sans-serif;
+}
+
+.header {
+    margin-top: 18px;
+
+    &__logo {
+        line-height: 24px;
+        color:#000000;
+        padding-top: 18px;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+    }
+}    
+
+.content {
+    margin-top: 18px;
+
+    &__header{
+        margin-bottom: 40px;
+        font-family: "RedHatDisplay SemiBold",sans-serif;
+        font-size: 30px;
+    }
+}
+
+
+.wraper {
+    width: 95%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.article {
+    &__header {
+        font-family: "RedHatDisplay SemiBold",sans-serif;
+        font-size: 26px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    &__text {
+        line-height: 32px;
+    }
+}
+
+.content-section {
+    margin-top: 70px;
+
+    &__header {
+        font-family: "RedHatDisplay SemiBold",sans-serif;
+        padding-bottom: 40px;
+        font-size: 26px;
+    }
+
+    &__text {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        line-height: 32px;
+    }
+}
+
+.footer {
+    background-color: #F4F4F4;
+
+    &__header {
+        padding-bottom: 20px;
+    }
+
+    &__header h3 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 32px;
+        font-family: "RedHatDisplay SemiBold",sans-serif;
+    }
+
+    &__contacts {
+        text-align: center;
+    }
+
+    &__contacts a {
+        text-decoration: none;
+        color: #000000;
+        text-align: center;
+    }
+
+    &__social {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    
+    &__social-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #565656;
+        background-color: white;
+    }
+    &__social-link:hover {
+        fill: #ffffff;
+        background-color: #565656;
+    }
+    
+    &__social-icon {
+        width: 24px;
+        height: 24px;
+    }
+   
+    &__copyringht {
+        text-align: center;
+      padding: 40px 0 50px 0;
+    }
+
+}
+
+@import './media';
