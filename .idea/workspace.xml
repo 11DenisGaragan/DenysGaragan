@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143c771d-c564-401e-9c21-411b229e2783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon/design(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon/first-click(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon/five-second(4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon/preference(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson20/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +25,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson9_(CSS Box Model)/assets/images/icon" />
@@ -60,6 +54,7 @@
       <updated>1677517219583</updated>
       <workItem from="1677517221440" duration="2000" />
       <workItem from="1677666979413" duration="931000" />
+      <workItem from="1678364307025" duration="599000" />
     </task>
     <servers />
   </component>
