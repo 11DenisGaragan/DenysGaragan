@@ -1,0 +1,285 @@
+.features {
+    margin-top: 120px;
+
+    &__heading {
+       text-align: center;
+       margin: 0 auto;
+       width: 638px;
+       height: 148px;
+
+       &-title {
+        font-family:  "WorkSans Bold",sans-serif;
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 50px;
+       }
+
+       &-subtitle {
+        font-family: "Montserrat Medium",sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+       }
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 80px;
+    }
+
+    &__search {
+        position: relative;
+        width: 570px;
+        height: 400px;
+
+        &-img {
+            position: absolute;
+            top: 110px;
+            left: 0;
+        }
+
+        &-content {
+            position: absolute;
+            padding: 62px 70px 62px 100px;
+            right: 0;
+            width: 400px;
+            height: 400px;
+            border-radius: 50px;
+            background-color: #F0FAF9;
+            z-index: -2;
+        }
+
+        &-title {
+            font-family:  "WorkSans Regular",sans-serif;
+            font-size: 24px;
+            line-height: 31px;
+        }
+
+        &-text {
+            font-family:  "Montserrat Regular",sans-serif;
+            line-height: 25px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        &-button {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-family: "Montserrat Bold",sans-serif;
+            border: 0;
+            color: #212353;
+            background-color: #F0FAF9;
+            line-height: 25px;
+            gap: 20px;
+        }
+
+        &-icon {
+            width: 20px;
+            height: 14px;
+            stroke: #9C69E2;
+
+        }
+        
+        &-figurebig {
+            position: absolute;
+            top: 20px;
+            right: 50px;
+            z-index: -1;
+        }
+
+        &-figuresmall {
+            position: absolute;
+            top: 63px;
+            right: 137px;
+            z-index: -1;
+        }
+        
+    }
+
+    &__hours {
+        position: relative;
+        width: 570px;
+        height: 400px;
+
+        &-img {
+            position: absolute;
+            top: 110px;
+            left: 0;
+        }
+
+        &-content {
+            position: absolute;
+            padding: 62px 70px 62px 100px;
+            top: 0;
+            right: 0;
+            width: 400px;
+            height: 400px;
+            border-radius: 50px;
+            background-color: #F6F0FD;
+            z-index: -2;
+       }
+   
+        &-title {
+            font-family:  "WorkSans Regular",sans-serif;
+            font-size: 24px;
+            line-height: 31px;
+        }
+
+        &-text {
+            font-family: "Montserrat Regular",sans-serif;
+            line-height: 25px;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+   
+        &-button {
+            display: flex;
+            align-items: center;
+            font-family: "Montserrat Bold",sans-serif;
+            color: #4B5D68;
+            border: 0;
+            background-color: #F6F0FD;
+            gap: 20px;
+        }
+   
+        &-icon {
+            width: 20px;
+            height: 14px;
+            stroke: #9C69E2;
+        }
+
+        &-figurebig {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            z-index: -1;
+        }
+    }
+
+    &__print {
+        position: relative;
+        width: 570px;
+        height: 400px;
+        margin-top: 20px;
+
+        &-img {
+            position: absolute;
+            top: 110px;
+            left: 0;
+        }
+
+        &-content {
+            position: absolute;
+            padding: 62px 70px 62px 100px;
+            right: 0;
+            width: 400px;
+            height: 400px;
+            background-color: #FEF0F8;
+            border-radius: 50px;
+            z-index: -1;
+        }
+
+        &-title {
+            font-family:  "WorkSans Regular",sans-serif;
+            font-size: 24px;
+            line-height: 31px;
+        }
+        &-text {
+            font-family: "Montserrat Regular",sans-serif;
+            line-height: 25px;
+            margin-top: 20px;
+            margin-bottom: 104px;
+        }
+
+        &-button {
+            display: flex;
+            align-items: center;
+            font-family: "Montserrat Bold",sans-serif;
+            color: #4B5D68;
+            border: 0;
+            background-color: #FEF0F8;
+            gap: 20px;
+        }
+
+        &-icon {
+            width: 20px;
+            height: 14px;
+            stroke: #9C69E2;
+        }
+
+        &-figuresmall {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: -1;
+        }
+    }
+
+    &__security {
+        position: relative;
+        width: 570px;
+        height: 400px;
+        margin-top: 20px;
+
+        &-img {
+            position: absolute;
+            top: 110px;
+            left: 0;
+        }
+
+        &-content {
+            position: absolute;
+            padding: 62px 70px 62px 100px;
+            right: 0;
+            width: 400px;
+            height: 400px;
+            background-color: #EAF6FC;
+            border-radius: 50px;
+            z-index: -1;
+        }
+
+        &-title {
+            font-family:  "WorkSans Regular",sans-serif;
+            font-size: 24px;
+            line-height: 31px;
+        }
+        &-text {
+            font-family: "Montserrat Regular",sans-serif;
+            line-height: 25px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        &-button {
+            display: flex;
+            align-items: center;
+            font-family: "Montserrat Bold",sans-serif;
+            color: #4B5D68;
+            border: 0;
+            background-color: #EAF6FC;
+            gap: 20px;
+        }
+
+        &-icon {
+            width: 20px;
+            height: 14px;
+            stroke: #9C69E2;
+        }
+
+        &-figurebig {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: -1;
+        }
+
+        &-figuresmall {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: -1;
+        }
+    } 
+}

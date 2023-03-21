@@ -1,0 +1,83 @@
+@import url(../../assets/fonts/Work_Sans/worksans.css);
+@import url(../../assets/fonts/Montserrat/montserrat.css);
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/features';
+@import 'components/testimonials';
+@import 'components/section';
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+main {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#logo-1 {
+    width: 18.31px;
+    height: 20px;
+}
+
+#logo-2 {
+    width: 18.31px;
+    height: 35px;
+}
+
+
+
+
+.highlevel {
+    display: flex;
+    padding: 75px 70px;
+    margin-top: 100px;
+    background-color: #FDE8F5;
+    border-radius: 50px;
+    gap: 130px;
+
+    &__col {
+        &-img {
+            width: 100%;
+        }
+    }
+
+    &__article {
+        width: auto;
+
+        &-title {
+            font-family:  "WorkSans Bold",sans-serif;
+            font-size: 40px;
+            line-height: 52px;
+            color:  #212353;
+        }
+
+        &-text {
+            margin-top: 40px;
+            font-family: "Montserrat Medium",sans-serif;
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        &-indent {
+            display: block
+        }
+    }
+}
+
+@import 'components/media';
+
+
+
+
+

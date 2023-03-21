@@ -1,0 +1,217 @@
+.footer {
+    margin-top: 120px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+
+        &-text {
+            font-family: "WorkSans Bold",sans-serif;
+            font-size: 40px;
+            line-height: 52px;
+            padding-bottom: 20px;
+        }
+
+        &-subtext {
+            font-family: "Montserrat Medium",sans-serif;
+            font-size: 18px;
+            line-height: 28px;
+            color: #4B5D68;
+        }
+
+        &-btn {
+            display: flex;
+            gap: 30px;
+        }
+    }
+
+    &__button {
+
+        &-learn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 210px;
+            height: 60px;
+            line-height: 29px;
+            height: 60px;
+            font-size: 18px;
+            color: #FFFFFF;
+            background-color: #F063B8;
+            border: 1px solid #F063B8;
+            box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+            border-radius: 50px;
+        }
+
+        &-learn:hover {
+            background-color: #EB4BAB;;
+        }
+
+        &-request {
+            display: flex;
+            font-family: "Montserrat Medium",sans-serif;
+            justify-content: center;
+            align-items: center;
+            width: 210px;
+            height: 60px;
+            line-height: 26px;
+            background-color: white;
+            box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+            border: 1px solid #9C69E2;
+            gap: 20px;
+            border-radius: 50px;
+        }
+
+        &-request:hover {
+            background-color: #9C69E2;
+            color: #FFFFFF;
+        }
+
+        &-request:hover &-icon {
+            stroke: #FFFFFF;
+        }
+
+        &-icon {
+            stroke: #9C69E2;
+            width: 20px;
+            height: 14px;
+        }
+    }
+
+    &__navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    &__contacts {
+       
+        &-logo {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        &-title {
+            font-family:  "Montserrat SemiBold",sans-serif;
+            font-size: 20px;
+            line-height: 32px;
+            color: #212353;
+        }
+
+        &-info {
+            margin-top: 62px;
+        }
+
+        &-text {
+            font-family: "Montserrat Medium";
+            line-height: 28px;
+            color: #212353;
+            letter-spacing: 0.01em;
+        }
+
+        &-link {
+            display: flex;
+            font-family: "Montserrat Regular",sans-serif;
+            line-height: 28px;
+            color: #212353;
+            text-decoration: none;
+            letter-spacing: 0.01em;
+        }
+
+        &-indent {
+            display: block;
+        }
+
+        
+    }
+
+    &__nav {
+        display: flex;
+        gap: 169px;
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        &-link {
+            font-family: "Montserrat Medium",sans-serif;
+            color: #4B5D68;
+            line-height: 25px;
+            text-decoration: none;
+        }
+
+        &-link:hover {
+            color: #8A40EE;
+        }
+
+        &-title {
+            font-family: "Montserrat SemiBold",sans-serif;
+            color: #212353;
+            line-height: 25px;
+        }
+    }
+
+    &__media {
+
+        &-title {
+            font-family: "Montserrat SemiBold",sans-serif;
+            color: #212353;
+            line-height: 25px;
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        &-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(33, 35, 83, .1);
+            border-radius: 50%; 
+            fill: white;
+
+            &.facebook:hover {
+                fill: #3B5998;
+                border: 1px solid #3B5998;
+                background: #FFFFFF;
+            }
+
+            &.twitter:hover {
+                fill: #00ACEE;
+                background: #FFFFFF;
+                border: 1px solid #00ACEE;
+            }
+
+            &.instagram:hover {
+                fill: #C13584;
+                border: 1px solid #C13584;
+                background: #FFFFFF;
+            }
+        }
+
+        &-icon {
+            width: 18px;
+            height: 15px;
+        }
+    }
+
+    &__anchor {
+        margin: 100px 0 120px 0;
+
+        &-indent {
+            display: block;
+        }
+    }
+   
+}
+
