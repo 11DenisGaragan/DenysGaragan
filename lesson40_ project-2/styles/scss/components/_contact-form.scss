@@ -1,0 +1,83 @@
+.contact {
+    position: relative;
+    width: 100%;
+    margin-top: 150px;
+
+    &__map {
+        width: 100%;
+    }
+}
+
+.form {
+    position: absolute;
+    top: 400px;
+    left: 415px;
+    width: 770px;
+    height: 450px;
+    background-color:#FFFFFF;
+
+    &__title {
+        text-align: center;
+        margin-top: 60px;
+
+        &-line {
+            margin: 0 auto;
+            width: 100px;
+            border: 1px solid #2C4058;
+        }
+
+        &-headline {
+            font-family: "Montserrat Bold",sans-serif;
+            line-height: 54px;
+            font-size: 44px;
+            margin-top: 30px;
+        }
+    }
+
+    &__communication {
+        width: 286px;
+        height: 196px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 42px 54px 68px 60px;
+
+        &-link {
+            text-decoration: none;
+        }
+
+        &-icon {
+            width: 9px;
+            height: 17px;
+            margin-right: 5px;
+        }
+    }
+
+    &__filling {
+        position: absolute;
+        right: 60px;
+        top: 186px;
+
+        width: 310px;
+        height: 195px;
+
+        &-input {
+            height: 41px;
+            width: 100%;
+
+            // margin-bottom: 33px;
+            border:none;
+            border-bottom: 1px solid #4B5562;
+        }
+
+        &-input:active {
+            color:#000000;
+            border-bottom:1px solid #000000;
+        }
+    }
+
+    // &__filling:hover &-input {
+    //     color:red;
+    //     border-bottom:1px solid #2C4058;
+    // }
+}

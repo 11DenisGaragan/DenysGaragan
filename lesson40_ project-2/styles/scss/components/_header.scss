@@ -1,0 +1,159 @@
+.header {
+    position: absolute;
+    top: 53px;
+    z-index: 1;
+  
+    &__navigation {
+        display: flex;
+        gap: 144px;
+
+        &-icon {
+            width: 241px;
+            height: 54px;
+            cursor:pointer;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        gap: 110px;
+    }
+
+    &__social {
+        display: flex;
+        margin-top: 15px;
+        height: 40px;
+        gap: 20px;
+
+        &-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #FFFFFF;
+            border-radius: 50%;
+           
+        }
+
+        &-link:hover {
+            fill: aquamarine;
+            border: 1px solid #e10000;
+        }
+
+        &-link:hover &-icon {
+            fill: aquamarine;
+          
+        }
+
+        &-icon {
+            width: 16px;
+            height: 18px;
+            fill: #FFFFFF;
+           
+        }
+    }
+
+    &__heading {
+        position: absolute;
+        top: 50%; left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+
+        &-headline {
+            width: max-content;
+            display: flex;
+            font-family: "Montserrat-Bold",sans-serif;
+            font-size: 80px;
+            line-height: 97.5px;
+            letter-spacing: 0.1em;
+            color:#FFFFFF;
+        }
+
+        &-subtext {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-family:  "Montserrat Regular",sans-serif;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.3em;
+            color:#FFFFFF;
+        } 
+
+        &-button {
+            position: absolute;
+            top: 512px;
+            left: 413px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    &__slider {
+        position: absolute;
+            top: 980px;
+            left: 1070px;
+            width: 40px;
+            height: 40px;
+            background-color:green;
+    }
+}
+
+
+.radio {
+
+    &__button {
+        display: flex;
+        gap: 70px;
+        margin-top: 27px;
+        height: 18px;
+    }
+
+    &__button a {
+        text-decoration: none;
+    }
+
+    // &__input {
+      
+    // }
+
+    &__container {
+        position: relative;
+       
+        padding-left: 23px;
+        color:#FFFFFF;
+        cursor: pointer;
+    }
+
+    // &__container input {
+       
+    //     width: auto !important;
+    //     height: auto !important;
+    // }
+
+    &__input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+       
+    }
+
+    &__input:checked ~ .checkmark {
+        background-color: #fff;
+        font-family: "SourceSansPro Regular";
+        line-height: 18px;
+        font-size: 20px;
+    }
+}
+
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 9px;
+    width: 9px;
+    border: 1px solid #E4E4E4;
+    border-radius: 50%;
+}
