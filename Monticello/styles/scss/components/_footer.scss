@@ -1,0 +1,64 @@
+.footer {
+    height: 549px;
+    background: linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+
+    &__credit {
+        display: flex;
+        position: relative;
+        justify-content:space-around;
+        padding-top: 203px;
+    }
+
+    &__logo {
+
+        &-icon {
+            width: 241px;
+            height: 54px;
+            cursor: pointer;
+        }
+
+        &-subtext {
+            position: absolute;
+            top: 294px;
+            left: 193px;
+
+            color:#FFFFFF;
+            line-height: 17px;
+            font-family: "Montserrat Regular",sans-serif;
+            cursor: pointer;
+        }
+    }
+
+    &__social {
+        display: flex;
+        height: 40px;
+        gap: 20px;
+
+        &-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #FFFFFF;
+            border-radius: 50%;
+           
+        }
+
+        &-link:hover {
+            border: 1px solid #FFFFFF;
+        }
+
+        &-link:hover &-icon {
+            fill: aquamarine;
+          
+        }
+
+        &-icon {
+            width: 16px;
+            height: 18px;
+            fill: #FFFFFF;
+           
+        }
+    }
+}
