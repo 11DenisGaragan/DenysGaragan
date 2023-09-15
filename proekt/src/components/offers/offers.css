@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Iqos-bold;
+    src: url(../../fonts/iqos-font/Iqos-bold.ttf);
+}
+
+.offers {
+    background: #FFFDFB;
+}
+
+.offers-container {
+    padding: 233px 0 279px 0;
+}
+
+.offers-text {
+    max-width: 794px;
+    color: #34303D;
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 0 auto;
+}
+
+.offers-text-specification {
+    font-family: Iqos-bold;
+}
+
+.offers-wrap {
+    margin-top: 163px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.offers-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.offers-content-link {
+    max-width: 285px;
+    color: #34303D;
+    text-align: center;
+    font-size: 48px;
+    font-family: Iqos-bold;
+    line-height: 66px; 
+}
+
+
+
+
+.offers-content-imgGarantial {
+    width: 71.015px;
+}
+
+.offers-content-imgPolitical {
+    width: 62.132px;
+}
+@media(min-width: 834px) and (max-width: 1023px) {
+    .offers-container {
+        padding: 136px 64px 159px 64px;
+    }
+
+    .offers-wrap {
+        margin-top: 141px;
+    }
+
+    .offers-text {
+        max-width: 486px;
+        font-size: 28px;
+        line-height: 38px;
+        margin: 0 auto;
+    }
+
+    .offers-content-link {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .tablet-specification {
+        max-width: 191px;
+    }
+
+   
+}
+
+@media(max-width: 833px) {
+    .offers-container {
+        padding: 142px 16px 179px 16px;
+    }
+
+    .offers-text {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .offers-wrap {
+        flex-direction: column;
+        gap: 110px;
+        margin-top: 110px;
+    }
+
+    .offers-content-link {
+        font-size: 27px;
+        line-height: 36px;
+    }
+}

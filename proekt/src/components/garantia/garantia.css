@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Iqos-bold;
+    src: url(../../fonts/iqos-font/Iqos-bold.ttf);
+}
+
+
+.garantia {
+    background: #34303D;
+}
+
+
+
+.garantia-container {
+    margin: 0 auto;
+    padding: 228px 0 134px 0;
+}
+
+.details-marginTop {
+    margin-top: 200px;
+}
+
+.garantio-text-specification {
+    font-family: Iqos-bold,sans-serif;
+}
+
+.garantia-line {
+    height: 80px;
+    margin-top: 92px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+@media(min-width: 834px) and (max-width: 1023px) {
+    .details-marginTop {
+        margin-top: 176px;
+    }
+
+    .garantia-container {
+        padding: 143px 64px 131px 64px;
+    }
+}
+
+@media(max-width: 833px) {
+    .details-marginTop {
+        margin-top: 155px;
+    }
+
+    .garantia-line {
+        height: 50px;
+    }
+
+    .garantia-container {
+        padding: 132px 16px 91px 16px;
+    }
+}

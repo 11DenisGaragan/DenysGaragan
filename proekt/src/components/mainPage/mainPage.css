@@ -1,0 +1,51 @@
+.mainPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPage-wrap {
+    padding: 44px 0 236px 120px;
+    background: #00D1D2;
+}
+
+.subtext {
+    font-size: 28px;
+    line-height: 38px;
+    color: #34303D;
+    margin-top: 123px;
+}
+
+.mainPage-line-bottom {
+    border-bottom: 8px solid #FFF;
+}
+
+@media(min-width: 1024px) {
+    .subtext {
+        max-width: 692px;
+    }
+}
+
+@media(min-width: 834px) and (max-width: 1023px) {
+    .mainPage-wrap {
+        padding: 44px 64px 126px 64px;  
+    }
+
+    .subtext {
+        font-size: 24px;
+        line-height: 32px; 
+        max-width: 522px;
+        margin-top: 84px;
+    }
+}
+
+@media(max-width: 833px) {
+    .mainPage-wrap {
+        padding: 0 16px 111px 16px;
+    }
+
+    .subtext {
+        font-size: 19px;
+        line-height: 27px; 
+        margin-top: 81px;
+    }
+}

@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Iqos-bold;
+    src: url(../../fonts/iqos-font/Iqos-bold.ttf);
+}
+
+.anos {
+    background: #00D1D2;
+}
+
+.anos-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 114px 0 158px 0;
+}
+
+.specification-header {
+    font-size: 200px;
+    font-family: Iqos-bold,sans-serif;
+    line-height: 200px;
+}
+
+.anos-contentLeft {
+    padding-left: 20px;
+}
+
+.anos-contentRight {
+    position: relative;
+}
+
+.anos-contentRight-img {
+    position: absolute;
+    right: 0;
+    top: -26px;
+}
+
+.anos-contentLeft-bloc {
+    margin-top: 55px;
+}
+
+.contentLeft-bloc-img {
+    width: 54.627px;
+}
+
+.contentLeft-bloc-text {
+    max-width: 488px;
+    color: #34303D;
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 36px;
+}
+
+.anos-text-specification {
+    font-family: Iqos-bold,sans-serif;
+}
+
+
+@media(min-width: 834px) and (max-width: 1023px) {
+
+    .anos-container {
+        padding: 129px 0 176px 64px;
+    }
+
+    .specification-header {
+        font-size: 156.522px;
+        line-height: 156.522px;
+    }
+
+    .anos-contentRight-img {
+        max-width: 345px;
+        height: 820px;
+    }
+
+    .anos-contentLeft {
+        padding: 0;
+    }
+
+    .contentLeft-bloc-text {
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 345px;
+        margin-top: 33px;
+    }
+
+    .anos-contentRight-img {
+        top: -49px;
+    }
+
+    .anos-contentLeft-bloc {
+        margin-top: 58px;
+    }
+}
+
+@media(max-width: 833px) {
+    .anos-container {
+        flex-direction: column;
+        padding: 105.69px 0 388px 47px;
+    }
+
+    .anos-contentRight-img {
+        top: 68px;
+        right: 16px;
+    }
+
+    .anos-contentRight-img {
+        max-width: 243px;
+        height: 370px;
+    }
+
+    .contentLeft-bloc-text {
+        font-size: 19px;
+        line-height: 27px;
+        max-width: 240px;
+        margin-top: 27px;
+    }
+
+    .anos-contentLeft {
+        padding: 0;
+    }
+
+    .specification-header {
+        font-size: 138.462px;
+        line-height: 138.462px;
+    }
+
+    .anos-contentLeft-bloc {
+        margin-top: 54px;
+    }
+    
+}

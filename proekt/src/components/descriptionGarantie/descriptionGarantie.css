@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Iqos-bold;
+    src: url(../../fonts/iqos-font/Iqos-bold.ttf);
+}
+
+.descriptionGarantie {
+    background: #34303D;
+}
+
+.descriptionGarantie-container  {
+    padding: 303px 0 270px 0;
+}
+
+.descriptionGarantie-bloc {
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+    margin-top: 94px;
+}
+
+.descriptionGarantie-bloc-content {
+    max-width: 285px;
+}
+
+.bloc-content-img {
+    width: 58.333px;
+    height: 58.333px;
+}
+
+.bloc-content-text {
+    color: #FFFDFB;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+
+.descriptionGarantie-text-specification {
+    font-family: Iqos-bold;
+    color: gray;
+}
+
+
+
+@media(min-width: 834px) and (max-width: 1023px) {
+    .descriptionGarantie-container {
+        padding: 189px 64px 199px 64px;
+    }
+
+    .descriptionGarantie-bloc {
+        margin-top: 99px;
+        padding: 0;
+    }
+
+    .descriptionGarantie-bloc-content {
+        max-width: 225px;
+    }
+
+    .bloc-content-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .bloc-content-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media(max-width: 833px) {
+    .descriptionGarantie-container {
+        padding: 197px 16px 190px 48px;
+    }
+
+
+    .descriptionGarantie-bloc {
+        margin-top: 116px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+    }
+
+    .descriptionGarantie-bloc-content {
+        width: auto;
+    }
+
+    .bloc-content-img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .bloc-content-text {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .margin-centerMobile {
+        margin: 0 auto;
+    }
+}
